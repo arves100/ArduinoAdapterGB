@@ -8,8 +8,6 @@ A work-in-process emulator of the Mobile Adapter GB peripheral with an Arduino.
 - A Computer with Arduino IDE installed
 - A pinout to connect the Arduino to the GameBoy Serial port (I use the [following pinout](https://github.com/Palmr/gb-link-cable), which does require a GameBoy Link Cable)
 
-NOTE: You can't use a standard GameBoy because the Mobile Adapter GB operates at a speed of 512Khz, only supported in GameBoy Color.
-
 ## Screenshots
 ![GBA and Arduino](picturegbarduino.png)
 
@@ -22,9 +20,6 @@ Connect SI to pin 11
 Connect SC to pin 13
 Connect GND to a common ground
 
-NOTE: The project don't use the SD connection because it's only used in GBA games.
-NOTE: The GB should not have enough power to power on an Arduino, so VDD connection is not used.
-
 ## What does work
 
 - Serial data send/receive with the GameBoy
@@ -36,6 +31,12 @@ a number of bytes used to tell the Trainer to get some data). Since the Adapter 
 should actually send some bytes and expect to receive the data from the Arduino.
 
 - Anything else (Handling of 0x10 command is the only thing implemented)
+
+## Notes
+
+- The project don't use the SD connection because it's only used in GBA games.
+- The GB should not have enough power to power on an Arduino, so VDD connection is not used.
+- You can't use a standard GameBoy because the Mobile Adapter GB operates at a speed of 512Khz, only supported in GameBoy Color or GameBoy Advance.
 
 ## References
 
