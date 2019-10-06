@@ -1,7 +1,7 @@
 # Arduino Adapter GB
 A work-in-process emulator of the Mobile Adapter GB peripheral with an Arduino.
 
-**NOTE: THIS CODE IS NO LONGER UPDATED SINCE IT WAS MOVED TO REONTeam REPOSITORY, YOU CAN FIND THE UPDATED VERSION OF THE CODE HERE: [https://github.com/REONTeam/ArduinoAdapterGB](https://github.com/REONTeam/ArduinoAdapterGB)
+**NOTE: THIS CODE IS NO LONGER UPDATED SINCE IT WAS MOVED TO REONTeam REPOSITORY, YOU CAN FIND THE UPDATED VERSION OF THE CODE HERE: [https://github.com/REONTeam/ArduinoAdapterGB](https://github.com/REONTeam/ArduinoAdapterGB)**
 
 ## Requirements
 - A Gameboy Color or GameBoy Advance
