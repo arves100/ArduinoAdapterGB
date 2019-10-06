@@ -1,6 +1,8 @@
 # Arduino Adapter GB
 A work-in-process emulator of the Mobile Adapter GB peripheral with an Arduino.
 
+**A more up to date version can be found at https://github.com/REONTeam/ArduinoAdapterGB**
+
 ## Requirements
 - A Gameboy Color or GameBoy Advance
 - Mobile Trainer cartridge and optionally, any Mobile Adapter GB compatible game
